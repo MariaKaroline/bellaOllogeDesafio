@@ -1,0 +1,94 @@
+        
+
+<main>
+            <section>
+                <section>
+                    <img src="" alt="Foto com fundo de alimetos">
+                    <h2>Food app</h2>
+                    <p>Why stay hungry whe you can order form Bella Olonje</p>
+                    <p>Download the Bella Olonje´s food app now</p>
+                    <button> playStore</button>
+                    <button> appStore</button>
+                </section>
+                <section>
+                    <div>
+                        <img src="" alt="Foto do app na pagina de login">
+                    </div>
+                    <div>
+                        <img src="" alt="Foto do app na pagina de busca de refeições">
+                    </div>
+                </section>
+            <hr>
+             
+            </section>
+            <section>
+                <p>How the app works</p>
+                <div>
+                    <img src="" alt="Foto do app na tela de cadastro">
+                </div>
+                <div>
+                    <p>Create an account</p>
+                    <p>Create/login to an existing account to get started</p>
+                    <p>An account is created with your email
+                        and a desired password</p>
+                </div>
+            </section>
+            <section>
+                <p>Explore while shopping</p>
+                <p>Shop for your favorites meals.</p>
+                <p>Enjoy shopping for your favorite meals and drinks.</p>
+                <img src="" alt="Foto do app na home do app">
+            </section>
+            <section>
+                <img src="" alt="Foto do app na tela pedidp">
+                <p>chekout</p>
+                <p>When you done check out and get it delivered.</p>
+                <p>When you done check out and get it delivered with ease.</p>
+            </section>
+           <section>
+            <section>
+                <img src="" alt="Foto com prateleira de rosquinhas">
+                <p>Download the app now.</p>
+                <p>Available on your favorite store. Start your premium experience now</p>
+               <button> playSotre</button>
+               <button> appStore</button>
+            </section>
+            <footer>
+                <div>
+                    <img src="" alt="Foto">
+                    <h1>Bella Olonge</h1>
+                </div>
+                <div>
+                  <ul>
+                      <li>
+                         <img src="" alt="logo twitter">
+                      </li>
+                      <li>
+                         <img src="" alt="logo facebook">
+                     </li>
+                     <li>
+                         <img src="" alt="logo instagram">
+                     </li>
+                  </ul>  
+                </div>
+                <div>
+                    <p>copyright</p>
+                </div>
+            </footer>
+           </section>
+        </main>
+    </body>
+</html>
+
+
+/* Rectangle */
+
+position: absolute;
+width: 299px;
+height: 586px;
+left: 446px;
+top: 610px;
+
+background: url(.png);
+/* phone mock up drop shadow */
+filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));

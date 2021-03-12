@@ -1,0 +1,208 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+};
+
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo{
+    position: absolute;
+    left: 90;
+    margin-block-start: 26px;
+    margin-block-end: 27px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu ul{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   left: 713px;
+   position: absolute;
+   padding-left: 0px;
+   list-style:none;
+   display: inline;
+   justify-content: space-between;
+   
+   
+}
+
+#menu  li{
+    display: inline;
+    justify-content: space-between;
+    margin: 0px 0px 0px 104px;
+}
+
+#menu ul li a{
+    /* padding: 0px 0px; */
+    margin-right: 0px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    color: orangered;
+    
+}
+
+
+
+#logo{
+    position: absolute;
+    left: 90px;
+    margin-top: 26px;
+}
+
+div{
+    display: inline-block;
+    align-items: flex-start;
+    background: #FFFFFF;
+   
+}
+
+#primeira{
+    width: 100%;
+    margin-top: 155px;
+    height: 619px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    background-image: url("img/Rectangle.png");
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
+#chamada{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    
+
+}
+
+button{
+    position: absolute;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    padding: 16px;
+    vertical-align: middle;
+    outline: none;   
+    top:560px ;    
+}
+
+#playStore{
+    background: #FA4A0C;
+    border-color: #FA4A0C;
+    border: 0; 
+    position: absolute;
+    left: 521px; ;
+    /* right: 683px; */
+    top: 560px;
+    /* bottom: 0%; */
+       
+}
+
+#appStore{
+    top: 560px; 
+    left: 791px;
+    background: none;
+    border-color: #FFFFFF;
+    
+}
+
+#Iniciar{
+   
+    position: absolute;
+    width: 299px;
+    height: 586px;
+    left: 446px;
+    top: 610px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+      
+}
+
+#TelaHome{
+    position: absolute;
+    width: 285px;
+    height: 531px;
+    left:709px;
+    top: 719px;
+    outline: none;
+   
+
+}
+
+hr{
+    position: absolute;
+    width: 884px;
+    height: 0px;
+    left: 278px;
+    top: 1378.91px;
+    border: 3px solid E4E4E4;
+    ;
+}
+
+stan{
+    position: absolute;
+    top:1451px ;
+    margin-left: 495px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#login{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0px;
+    top: 1546px;
+}
+
+
+#criarConta{
+    position: absolute;
+    left: 245px;
+    top: 78px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+
+
+}
