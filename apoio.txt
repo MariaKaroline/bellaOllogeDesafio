@@ -1,94 +1,216 @@
         
 
-<main>
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+        <title>Bella Olonge</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id= "logo">
+                <img  src="img\Bella Olonje logo 111 1.png" alt="">
+            </h1>
+
+            <nav id= "menu">
+                <ul>
+                  <li><a id= "home" href="">Home</a></li>
+                  <li><a href="">Product</a></li>
+                  <li><a href="">Faq</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </nav>
+        </header>
+        <main>
             <section>
-                <section>
-                    <img src="" alt="Foto com fundo de alimetos">
-                    <h2>Food app</h2>
-                    <p>Why stay hungry whe you can order form Bella Olonje</p>
+                <div id= "primeira">
+                    <p>Food app</p>
+                    
+                    <p id= "chamada">Why stay hungry when <br> you can order form Bella Olonje</p>
                     <p>Download the Bella Olonje´s food app now</p>
-                    <button> playStore</button>
-                    <button> appStore</button>
-                </section>
-                <section>
-                    <div>
-                        <img src="" alt="Foto do app na pagina de login">
-                    </div>
-                    <div>
-                        <img src="" alt="Foto do app na pagina de busca de refeições">
-                    </div>
-                </section>
-            <hr>
-             
-            </section>
-            <section>
-                <p>How the app works</p>
-                <div>
-                    <img src="" alt="Foto do app na tela de cadastro">
+                    <button id= "playStore"> Playstore</button>
+                    <button id ="appStore"> App store</button>
                 </div>
                 <div>
-                    <p>Create an account</p>
-                    <p>Create/login to an existing account to get started</p>
-                    <p>An account is created with your email
-                        and a desired password</p>
+                      
+                    <img id= "Iniciar" src="img\getStarted.png" alt="Imagem celular com tela de criaçao de conta">
+                    <img id  = "TelaHome" src="img\TelaHome.png" alt="">
+                    <hr>
                 </div>
             </section>
             <section>
-                <p>Explore while shopping</p>
-                <p>Shop for your favorites meals.</p>
-                <p>Enjoy shopping for your favorite meals and drinks.</p>
-                <img src="" alt="Foto do app na home do app">
-            </section>
-            <section>
-                <img src="" alt="Foto do app na tela pedidp">
-                <p>chekout</p>
-                <p>When you done check out and get it delivered.</p>
-                <p>When you done check out and get it delivered with ease.</p>
-            </section>
-           <section>
-            <section>
-                <img src="" alt="Foto com prateleira de rosquinhas">
-                <p>Download the app now.</p>
-                <p>Available on your favorite store. Start your premium experience now</p>
-               <button> playSotre</button>
-               <button> appStore</button>
-            </section>
-            <footer>
-                <div>
-                    <img src="" alt="Foto">
-                    <h1>Bella Olonge</h1>
+                <stan>
+                    <h2 >How the app works</h2>
+                </stan>
+                <div id="login">
+                    <img id= "criarConta" src="img\CreatAcccount.png" alt="">
                 </div>
-                <div>
-                  <ul>
-                      <li>
-                         <img src="" alt="logo twitter">
-                      </li>
-                      <li>
-                         <img src="" alt="logo facebook">
-                     </li>
-                     <li>
-                         <img src="" alt="logo instagram">
-                     </li>
-                  </ul>  
-                </div>
-                <div>
-                    <p>copyright</p>
-                </div>
-            </footer>
-           </section>
-        </main>
+            </section>
+        </main>                  
+        
     </body>
-</html>
+</html>    
 
 
-/* Rectangle */
 
-position: absolute;
-width: 299px;
-height: 586px;
-left: 446px;
-top: 610px;
 
-background: url(.png);
-/* phone mock up drop shadow */
-filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#menu ul{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   left: 713px;
+   position: absolute;
+   padding-left: 0px;
+   list-style:none;
+   display: inline;
+   justify-content: space-between;
+   
+   
+}
+
+#menu  li{
+    display: inline;
+    justify-content: space-between;
+    margin: 0px 0px 0px 104px;
+}
+
+#menu ul li a{
+    /* padding: 0px 0px; */
+    margin-right: 0px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    color: orangered;
+    
+}
+
+
+
+#primeira{
+    width: 100%;
+    margin-top: 155px;
+    height: 619px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    background-image: url("img/Rectangle.png");
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
+#chamada{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    
+
+}
+
+button{
+    position: absolute;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    padding: 16px;
+    vertical-align: middle;
+    outline: none;   
+    top:560px ;    
+}
+
+#playStore{
+    background: #FA4A0C;
+    border-color: #FA4A0C;
+    border: 0; 
+    position: absolute;
+    left: 521px; ;
+    /* right: 683px; */
+    top: 560px;
+    /* bottom: 0%; */
+       
+}
+
+
+
+
+#Iniciar{
+   
+    position: absolute;
+    width: 299px;
+    height: 586px;
+    left: 446px;
+    top: 610px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+      
+}
+
+#TelaHome{
+    position: absolute;
+    width: 285px;
+    height: 531px;
+    left:709px;
+    top: 719px;
+    outline: none;
+   
+
+}
+
+hr{
+    position: absolute;
+    width: 884px;
+    height: 0px;
+    left: 278px;
+    top: 1378.91px;
+    border: 3px solid E4E4E4;
+    ;
+}
+
+stan{
+    position: absolute;
+    top:1451px ;
+    margin-left: 495px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#login{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0px;
+    top: 1546px;
+}
+
+#criarConta{
+    position: absolute;
+    left: 245px;
+    top: 78px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+
+
+}
