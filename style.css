@@ -2,6 +2,9 @@ body{
     background-color: white;
     font-family: 'Montserrat', sans-serif;
 };
+*{
+    box-sizing: border-box;
+}
 
 @font-face{
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +16,7 @@ body{
 
 .header{
     width: 100%;
+    min-width: 414px;
     height: 112px;
     margin-top: 0px;
     display: flex;
@@ -31,10 +35,11 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    min-width: 414px;
+    height: 510px;
     align-items: center;
     background: #FAFAFA;
-    top: 112px
+    /* margin-top: 112px ; */
 }
 
 .food{
@@ -63,6 +68,7 @@ body{
     width: 391px;
     text-align: center;
     line-height: 42px;
+    margin: 10px auto;
 }
 
 .download{
@@ -91,7 +97,13 @@ body{
     align-items: center;
     
 }
-
+.botao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;  
+}
 .playStore{
     width: 236px;
     height: 68px;
@@ -104,7 +116,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     color: white;
-    padding: 16px;  
+     margin: 10px auto;
 }
 
 .appStore{
@@ -118,16 +130,26 @@ body{
     color:  #FA4A0C;
     border-radius: 30px; 
 }
- 
+
+/* .teste{
+    display: flex;
+
+} */
+
 .imgs{
     display: flex;
     flex-wrap: wrap;
     position: relative;
     height: 565px;
+    width: 450px;
+    margin: 1px auto; 
+    padding: 20px;   
+    
 }
 .telaInicial{
     width: 230px;
     height: 415px;
+    
     
 }
 
@@ -138,14 +160,17 @@ body{
     left: 187px;
     margin-top: 64px;
     z-index: -1;
+    
 }
 
 hr{
     position: absolute;
-    width: 414px;
+    width: 100%;
     height: 0px;
     top: 1170px;
     border: 3px solid #E4E4E4;
+    margin: auto;
+   
 }
 
 .criarConta{
@@ -312,9 +337,11 @@ hr{
     height: 581px;
 }
 
+
 .preFooter{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    flex-wrap: wrap;
     align-items: center;
     background: #252B42;
     width: 100%;
@@ -381,3 +408,36 @@ hr{
     color: #FFFFFF;
     border-radius: 10px; 
 }
+
+.footer{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: center;
+    background: #FFFFFF;   
+    width: 100%;
+    height: 225px;
+    position: absolute;
+    top: 4664px;
+}
+
+.redes{
+    display: flex;
+    width: 161px;
+    justify-content: space-between;
+    margin-top: 64px;
+    
+}
+
+
+.footer  span{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    margin-top: 13px;
+    
+}
+
