@@ -451,7 +451,10 @@ hr{
         margin-top: 26px;
     }
 
-   parte1{
+    .menu{
+        
+    }
+    .parte1{
         background-image: url("img/background.svg");
         background-size: 100%;
         background-repeat: no-repeat; 
@@ -517,7 +520,7 @@ hr{
         width: 285px;
         height: 531px;
         position: absolute;
-        margin: -210px;
+        margin: -2px;
         margin-left: 85px;
          z-index: 1; 
         
