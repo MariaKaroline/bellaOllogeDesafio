@@ -8,7 +8,7 @@ body{
 
 @font-face{
     font-family: 'Montserrat', sans-serif;
-    src: url url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    src:  url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
     font-family: 'Poppins', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
@@ -128,12 +128,6 @@ body{
     color:  #FA4A0C;
     border-radius: 30px; 
 }
-
-/* .teste{
-    display: flex;
-
-} */
-
 .imgs{
     display: flex;
     flex-wrap: wrap;
@@ -160,35 +154,45 @@ body{
     z-index: -1;
     
 }
-
-hr{
-    position: absolute;
+.appWork{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 0px;
+}
+.linha{
+    display: flex;
+    justify-content: center;
+    width: 884px;
+    height: 36px;
     top: 1170px;
-    border: 3px solid #E4E4E4;
-    margin: auto;
+    border-top: 3px solid #E4E4E4;
+    margin: 60px auto;
    
 }
-
-.criarConta{
-    width: 100%;
-    height: 500px;
-    margin-top:55px;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-}
-.criarConta h2{
+.linha h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    margin-bottom: 45PX;
+    margin: 45px auto;
     font-weight: 600;
     letter-spacing: 0.2px;
-    
-   
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.criarConta{
+    width: 100%;
+    height: 330px;
+    margin-top:55px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0px 15px;
 }
 
 .criarConta h3{
@@ -229,10 +233,12 @@ hr{
     letter-spacing: 0.2px;
     color: #737373;
 }
-
-.infoIniciar img{
-    width: 414px;
-    height: 581px;
+.imgConta{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    padding-bottom: 30px;
     
 }
 
@@ -240,10 +246,11 @@ hr{
     width: 100%;
     height: 931px;
     top: 2200px;
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .explorar h3{
@@ -255,13 +262,14 @@ hr{
     text-align: center;
     letter-spacing: 0.1px;
     color: #FA4A0C;
-    margin-top: 40px;
+   /*  margin-top: 40px; */
 }
 
-.explorar1{
+.explorarInfo{
     width: 327px;
-    height: 171px;
-    padding: 40px;
+    height: 450px;
+    margin: auto;
+    
 }
 .explorar h2{
     font-family:'Montserrat', sans-serif;;
@@ -271,8 +279,6 @@ hr{
     text-align: center;
     letter-spacing: 0.2px;
     color: #252B42;
-    padding: 40px;
-
 }
 
 .explorar h4{
@@ -283,7 +289,6 @@ hr{
     text-align: center;
     letter-spacing: 0.2px;
     color: #737373;
-    margin-top: 10px;
 }
 
 .explorar img{
@@ -295,14 +300,13 @@ hr{
     flex-direction: column;
     width: 100%;
     top: 3135px;
-    position: absolute;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 .check h3{
     font-family:'Montserrat', sans-serif;;
-    font-weight:500;
+    font-weight:700;
     font-size: 24px;
     line-height: 38px;
     text-align: center;
@@ -330,11 +334,16 @@ hr{
     margin-top:15px ;
     color: #737373;
 }
-
+.checkout{
+    width: 327px;
+    height: 450px;
+    margin: auto;
+}
 .check img{
     height: 581px;
+    margin: auto;
+    margin-bottom: 40px;
 }
-
 
 .preFooter{
     display: flex;
@@ -344,7 +353,6 @@ hr{
     background: #252B42;
     width: 100%;
     height: 564px;
-    position: absolute;
     top: 4100px;
 }
 .baixar h2{
@@ -415,7 +423,6 @@ hr{
     background: #FFFFFF;   
     width: 100%;
     height: 225px;
-    position: absolute;
     top: 4664px;
 }
 
@@ -438,7 +445,7 @@ hr{
     margin-top: 13px;
     
 }
-@media(min-width: 1024px){
+@media(min-width: 1440px){
 
     .header{
         height: 155px;
@@ -503,26 +510,181 @@ hr{
     }
 
     .imgs{
-        margin: auto;
+        margin: 55px auto;
         margin-top: -175px;
         display: flex;
         align-items: center;
+        
     }
 
     .telaInicial{
         width: 299px;
-        height: 586px;
-        
-        
-        
+        height: 586px;   
+    
     }
-        .telaHome{
+     .telaHome{
         width: 285px;
         height: 531px;
         position: absolute;
-        margin: -2px;
+        margin: -200px;
         margin-left: 85px;
-         z-index: 1; 
+        z-index: 1; 
         
     }
+    .appWork h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .teste{
+        flex-direction: row-reverse;
+        width: 1200px;
+        height:807px ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+    }
+     .criarConta{
+        width: 561px;
+        height: 600px;
+        margin: 0;
+        justify-content: center;
+         
+    } 
+    
+    .criarConta h3{
+      text-align:justify;
+    }
+
+    .imgConta{
+        width:302px;
+    }
+    .infoIniciar{
+        width: 571px;
+        height: 228px;
+        display: flex;
+        flex-direction: column;
+         margin: 40px 0px 0px 0px;
+    }
+    
+    .infoIniciar h2{
+        text-align: left;
+    }
+    
+    .infoIniciar h4{
+        text-align: left;
+       
+    }
+    .explorar{
+        flex-direction: row;
+        width: 1200px;
+        height:807px ;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .exp{
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        height:807px ;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .explorarInfo{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       align-items: flex-start;
+       width: 561px;
+       height: 600px;
+       margin: auto;
+       justify-content: center
+      
+    }
+    .explorarInfo h2{
+        padding: 0px;
+        text-align: left;
+    }
+    .explorarInfo h4{
+        width: 537px;
+        height: 76px;
+        text-align: left;
+    }
+    .explorarImg{
+        display: flex;
+        justify-content: center;
+        margin: 80px auto;
+        padding-bottom: 30px
+    }
+    .explorar img{
+        width: 269px; 
+        height: 525px;
+        margin: auto;
+    }
+    .check2{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 1200px;
+        height:807px ;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .check2 img{
+        width: 278px;
+    }
+    .checkout{
+        width: 560px;
+    }
+    .checkout h3 {
+        text-align: left;
+    }
+    .checkout h2 {
+        text-align: left;
+        margin: 17px 0px;
+    }
+    .checkout h4 {
+        text-align: left;
+        margin: 27px 0px;
+    }
+    .checkImg{
+        display: flex;
+        justify-content: center;
+        margin: 80px auto;
+        padding-bottom: 30px
+    }
+
+    .preFooter{
+        background-image: url("img/backgroundDownload.png");
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        height: 516px;
+    }
+
+    
+    .footerInfo{
+        width: 1210px;
+        height: 133px;
+        margin: 36px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       align-items: center;
+    }
+    .redes{
+        margin: 0px;
+    }
 }
+@media screen and (max-width: 1024px){
+    .img{
+        display: none;
+        width: 246px;
+    }
+}
+
+
