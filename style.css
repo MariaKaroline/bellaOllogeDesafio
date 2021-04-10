@@ -521,7 +521,7 @@ label span:nth-child(3){
     margin-top: 13px;
     
 }
-@media(min-width: 1440px){
+@media screen and (min-width: 1440px){
 
     .header{
         height: 155px;
