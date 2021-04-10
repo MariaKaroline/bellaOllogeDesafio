@@ -22,12 +22,88 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
+}
+/* .menuHamburguer{
+    display: flex;
+
+} */
+
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
 }
 
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 16px ;
+    width: 20px;
+    margin-right: 25px;
+}
+label span{
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 20px;
+    background: #737373;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1){
+    top: 0;
+}
+label span:nth-child(2){
+    top: 8px;
+}
+label span:nth-child(3){
+    top: 16px;
+}
+#checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px
+}
+#checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+}
+#checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+}
+
+.menu{
+    display: flex;
+    width: 464px;
+    margin-right: 50px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.menu ul li{
+    margin-right:  100px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #252B42;
+    font-weight: 600;
+}
+
+#home{
+ color: #FA4A0C;
+}
 #logoH1{
     width: 104px;
     height: 51px;
-    margin: 17px 285px 43px 25px;
+    margin: 17px 2px 43px 25px;
 }
 
 .parte1{
@@ -449,6 +525,7 @@ body{
 
     .header{
         height: 155px;
+       
     }
     
     #logoH1{
@@ -458,9 +535,7 @@ body{
         margin-top: 26px;
     }
 
-    .menu{
-        
-    }
+   
     .parte1{
         background-image: url("img/background.svg");
         background-size: 100%;
@@ -685,6 +760,24 @@ body{
         display: none;
         width: 246px;
     }
+    
 }
 
+.menuHamburguer {
+    display: block;
+}
+@media screen and (min-width:1024px){
+    .menuHamburguer {
+        display:none;
+    }
+}
+
+.menu {
+    display: block;
+}
+@media screen and (max-width:1023px){
+    .menu {
+        display:none;
+    }
+}
 
